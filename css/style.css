@@ -29,6 +29,10 @@ line-height: 20px;
 	height: 200px;
 	width: 100%;
 }
+nav img{
+	height: 30px;
+	width: 40px;
+}
 /*header*/
 .nav-item:hover{
 background-color: #000;
@@ -154,12 +158,13 @@ border-color: #ddd;
 	font-size: 60px;
 }
 /*contact page css*/
-.contact p{
-	letter-spacing: 3px;
-}
 .contact .card:hover{
 	transform: scale(.9);
 	transition: .8s;
+}
+iframe{
+	height: 400px;
+	width: 100%;
 }
 /*---responsive css---*/
 /*---heme page---*/
@@ -175,6 +180,9 @@ border-color: #ddd;
 .card-footer{
 	font-size: 12px;
 }
+iframe{
+	height: 200px;
+}
 }
 @media only screen and (max-width: 575px){
 .hide576{
@@ -185,6 +193,9 @@ border-color: #ddd;
 }
 .home-blog h2{
 	font-size: 12px !important;
+}
+.card-footer{
+	
 }
 }
 /*---cobalt---*/
